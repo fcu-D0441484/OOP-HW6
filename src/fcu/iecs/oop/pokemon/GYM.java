@@ -62,7 +62,7 @@ public class GYM {
 		}
 		if(win1>win2)
 		{
-			a.setLevel(a.getLevel());
+			a.setLevel(a.getLevel()+1);
 			System.out.println("Winner is "+a.getPlayerName()+", and his/her level becomes "+a.getLevel()+".");
 			return a;
 		}

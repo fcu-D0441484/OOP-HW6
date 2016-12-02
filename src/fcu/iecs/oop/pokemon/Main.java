@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	    Player player1 = new Player("Player One");
+		Player player1 = new Player("Player One");
 
 	    Pokemon pkm11 = new Pokemon("Bulbasaur", PokemonType.GRASS, 123);
 	    Pokemon pkm12 = new Pokemon("Charmander", PokemonType.FIRE, 456);
@@ -23,6 +23,7 @@ public class Main {
 	    player2.setPokemons(pkms2);
 	    
 	    GYM.fight(player1, player2);
+
 
 	}
 
